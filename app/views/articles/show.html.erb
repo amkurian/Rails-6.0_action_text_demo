@@ -1,2 +1,4 @@
-<h1>Articles#show</h1>
-<p>Find me in app/views/articles/show.html.erb</p>
+<p>Article Title:<strong><%= @article.title %></strong></p>
+<p>Article Text:<strong><%= @article.text %></strong></p>
+
+<%= link_to 'Create new',new_article_path %> 
